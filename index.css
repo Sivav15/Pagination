@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+
+#title,#description {
+    text-align: center;
+    font-size: 25px; 
+}
+#title{
+    margin-top: 5px;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#table {
+    font-size: 18px;
+    border-collapse: collapse;
+}
+
+thead {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+tr,th{
+    text-align: center;
+}
+
+#buttons {  
+    display: flex;
+    margin-top: 10px;
+    gap: 6px;
+    justify-content: center;
+}
+
+#btn {
+    background-color:green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 4px 15px;
+    border-radius: 15px;
+}
+#btn:hover{
+    color:black;
+}
